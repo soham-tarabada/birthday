@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const CountdownPage = () => {
   const navigate = useNavigate();
-  const targetDate = new Date("May 13, 2025 00:00:00").getTime();
+  const targetDate = new Date("May 02, 2025 15:55:00").getTime();
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime());
   const [buttonEnabled, setButtonEnabled] = useState(false);
 
